@@ -1,0 +1,18 @@
+.loading {
+  position: relative; }
+  .loading:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    background-color: #333;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: rotate 1s linear infinite; }
+
+@keyframes rotate {
+  to {
+    transform: rotate(180deg); } }
